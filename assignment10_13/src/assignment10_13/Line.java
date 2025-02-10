@@ -1,5 +1,8 @@
 package assignment10_13;
 
+/**
+ * 線を表すクラス
+ */
 public class Line implements Figure {
 
 	/**
