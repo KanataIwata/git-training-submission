@@ -1,4 +1,4 @@
-package assignment10_13;
+	package assignment10_13;
 
 /**
  * 多角形クラスの共通機能３つを定義する
@@ -33,7 +33,7 @@ public abstract class Polygon extends Shape {
 	public int getInternalAngle() {
 
 		if (this.angle < 3) {
-			throw new IllegalStateException("角の数が3未満の場合、多角形として成立しません:" + this.angle);
+			throw new IllegalStateException("Polygon.getInternalAngle():角の数が3未満の場合、多角形として成立しません:" + this.angle);
 		}
 
 		return (this.angle - 2) * 180;
