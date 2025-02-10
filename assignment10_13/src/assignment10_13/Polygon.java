@@ -28,7 +28,7 @@ public abstract class Polygon extends Shape {
 	/**
 	 * angleフィールドを使い、内角の和を算出する具象メソッド
 	 * @return int型の算出された内角の和
-	 * @throws IllegalStateException angleが3未満の場合
+	 * @throws IllegalStateException angleが3未満の場合(多角形として成立しない為）
 	 */
 	public int getInternalAngle() {
 
